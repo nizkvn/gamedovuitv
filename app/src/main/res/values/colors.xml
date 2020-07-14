@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="splash">#F5EEAF</color>
+    <style name="SplashscreenTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash</item>
+    </style>
+    <style name="MainscreenTheme" parent="Theme.AppCompat.Light.NoActionBar"></style>
+    <style name="NhaptenscreenTheme" parent="Theme.AppCompat.Light.NoActionBar"></style>
+    <style name="PlayscreenTheme" parent="Theme.AppCompat.Light.NoActionBar"></style>
+    <style name="KetthucscreenTheme" parent="Theme.AppCompat.Light.NoActionBar"></style>
+</resources>

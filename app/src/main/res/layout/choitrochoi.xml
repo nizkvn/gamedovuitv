@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutplay"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E6AEC4">
+
+    <LinearLayout
+        android:id="@+id/layout_tieude"
+        android:layout_width="200dp"
+        android:layout_height="120dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/layout_cauhoithu"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtcauhoithu"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:gravity="bottom"
+            android:text="1"
+            android:textColor="#f20"
+            android:textStyle="bold"
+            android:textSize="40sp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/layout_dongho">
+        <TextView
+            android:id="@+id/txtthoigian"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="6dp"
+            android:gravity="center"
+            android:text="1"
+            android:textAlignment="center"
+            android:textColor="#f20"
+            android:textStyle="bold"
+            android:textSize="40sp" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/relaticauhoi"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@id/layout_tieude"
+        android:layout_margin="10dp"
+        android:background="@drawable/khungcauhoi">
+
+        <TextView
+            android:id="@+id/txtcauhoi"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_margin="100px"
+            android:gravity="center"
+            android:text="Câu hỏi"
+            android:textAlignment="center"
+            android:textColor="#f20"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/relaticauhoi"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="100dp"
+        android:orientation="vertical"
+        android:weightSum="3">
+
+        <Button
+            android:id="@+id/btncautrl1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/khungtl"
+            android:text="câu trả lời 1"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/btncautrl2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/khungtl"
+            android:text="câu trả lời 2"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/btncautrl3"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/khungtl"
+            android:text="câu trả lời 3"
+            android:textSize="15dp" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="400dp"
+
+    android:id="@+id/background_dialog">
+
+    <TextView
+        android:id="@+id/dialog_txt"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="150dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="câu trả lời ....."
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+
+
+        <Button
+            android:id="@+id/btn_dialog"
+            android:layout_alignParentBottom="true"
+            android:layout_width="130dp"
+            android:layout_marginBottom="150dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:background="#002AFF"
+            android:onClick="choitiep"
+            android:text="chơi tiếp nhỉ"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+
+</RelativeLayout>
